@@ -8,6 +8,9 @@ This demo app shows a simple user profile app set up using
 All components are docker-based
 
 ### With Docker
+### Containers to pull
+     docker pull mongo
+     docker pull mongo-express
 
 #### To start the application
 
