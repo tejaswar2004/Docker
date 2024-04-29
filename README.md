@@ -69,5 +69,8 @@ Step 5: access the nodejs application from browser
 #### To build a docker image from the application
 
     docker build -t my-app:1.0 .       
-    
+
+### execute the image 
+     docker exec -it _id_  /bin/sh
+     
 The dot "." at the end of the command denotes location of the Dockerfile.
